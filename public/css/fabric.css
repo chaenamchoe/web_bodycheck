@@ -1,0 +1,60 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#shapes-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 5px;
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.shape-btn{
+    width: 40px;
+    height: 40px;
+    background-color: beige;
+    border-left: 1px solid red;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+    cursor: pointer;
+}
+.shape-btn:hover{
+    background-color: gray;
+}
+#line-btn{
+    content:url('../images/hline.png');
+}
+#single-arrow-head-line-btn{
+    content:url('../images/vline.png');
+}
+#double-arrow-head-line-btn{
+    content:url('../images/rectangle.png');
+    border-right: 1px solid red;
+}
+#deactivate-adding-shape-btn{
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+}
+#length-angle-container{
+    position: absolute;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 5px;
+    font-size: 13px;
+    font-weight: 700;
+    color: white;
+    width: 150px;
+    height: 20px;
+    text-align: center;
+}
+#angle-of-line{
+    margin-left: 10px;
+}
